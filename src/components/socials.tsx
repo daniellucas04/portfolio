@@ -1,28 +1,37 @@
-import { AtSign, Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
+import { useState } from "react";
 
 export default function Socials(){
+
+    const [copy, setCopy] = useState("Copy email!");
+
     return(
-        <div className="mr-10">
-            <h2 className="text-5xl mt-4">Socials</h2>
-            <div className="ml-4 text-xl">
-                <span className="flex">
-                    <Github size={26} />
-                    <a href="https://github.com/daniellucas04" target="_blank" className="gap-2 ml-1 font-semibold underline hover:text-zinc-600">
-                        Github
+        <div className="mr-10 mt-2">
+            <div className="ml-4 text-xl flex gap-3">
+                <span className="flex bg-zinc-800 w-10 h-10 items-center justify-center rounded shadow-md hover:bg-zinc-700">
+                    <a href="https://github.com/daniellucas04" target="_blank">
+                        <Github size={26} color="white" />
                     </a>
                 </span>
-                <span className="flex">
-                    <Linkedin size={26}  />
-                    <a href="" target="_blank" className="gap-2 ml-1 font-semibold underline hover:text-zinc-600">
-                        LinkedIn
+                <span className="flex bg-zinc-800 w-10 h-10 items-center justify-center rounded shadow-md hover:bg-zinc-700">
+                    <a href="linkedin.com/in/daniellucas04/" target="_blank">
+                        <Linkedin size={26} color="white" />
                     </a>
                 </span>
-                <span className="flex">
-                    <AtSign size={26} />
-                    <a href="" target="_blank" className="gap-2 ml-1 font-semibold underline hover:text-zinc-600">
-                        Email
-                    </a>
-                </span>
+                <div className="tooltip" data-tip={`${copy}`} >
+                    <button id="email" type="button" className="cursor-pointer flex bg-zinc-800 w-10 h-10 items-center justify-center rounded shadow-md hover:bg-zinc-700 hover:"
+                        onClick={() => {
+                            navigator.clipboard.writeText("daniellsilva@outlook.com");
+                            setCopy("Copied!");
+
+                            setTimeout(() => {
+                                setCopy("Copy email!")
+                            }, 3000)
+                        }}
+                    >
+                        <Mail size={26} color="white" />
+                    </button>
+                </div>
             </div>
         </div>
     )
