@@ -1,6 +1,6 @@
 export default function Education(){
     return(
-        <div className="ml-16 mt-14 mb-14 text-zinc-800">
+        <div className="ml-16 mt-14 mb-10 text-zinc-800">
             <div className="">
                 <h1 className="text-3xl">Education</h1>
                 <div className="ml-8 mt-4">
