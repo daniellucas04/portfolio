@@ -2,4 +2,5 @@
 
 # Tech
 
-> under construction
+- ReactJS
+- TailwindCSS
