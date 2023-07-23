@@ -3,7 +3,6 @@ export default function Tech(){
         <div className="ml-16 mt-14 text-zinc-800">
             <h1 className="text-3xl">Technologies</h1>
             <div className="ml-8">
-                <p>This section is going to show you what technologies I'm currently using</p>
                 <div className="grid grid-cols-2 mt-8 mr-32 gap-4">
                     <section>
                         <span className="bg-zinc-800 text-zinc-50 px-1 ml-1 text-lg">Programming languages</span> 
@@ -11,7 +10,6 @@ export default function Tech(){
                             <li>C/C++</li>
                             <li>C#</li>
                             <li>Javascript</li>
-                            <li>PHP</li>
                             <li>Python</li>
                         </ul>
                     </section>
@@ -38,7 +36,6 @@ export default function Tech(){
                             <li>Windows Server</li>
                         </ul>
                     </section>
-                    
                 </div>
             </div>
         </div>
