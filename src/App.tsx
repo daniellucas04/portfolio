@@ -6,12 +6,16 @@ import Tech from "./components/tech";
 
 export default function App() {
   return (
-    <div>
-      <Header />
-      <About />
-      <Tech />
-      <Projects />
-      <Education />
-    </div>
+    <>
+      <div>
+        <Header />
+      </div>
+      <div className="ml-2">
+        <About />
+        <Tech />
+        <Projects />
+        <Education />
+      </div>
+    </>
   )
 }
