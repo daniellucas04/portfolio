@@ -5,6 +5,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'xs-screen': '370px',
+    },
     extend: {},
     fontFamily: {
       sans: ["Inter", "sans-serif"], 
