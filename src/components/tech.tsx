@@ -7,8 +7,8 @@ export default function Tech(){
                     <section>
                         <span className="bg-zinc-800 text-zinc-50 px-1 ml-1 text-lg max-xs-screen:text-sm sm:text-md">Programming languages</span> 
                         <ul className="list-decimal ml-6 max-xs-screen:text-sm">
-                            <li>C/C++</li>
-                            <li>C#</li>
+                            <li>PHP</li>
+                            <li>C/C++/C#</li>
                             <li>Javascript</li>
                             <li>Python</li>
                         </ul>
@@ -17,7 +17,7 @@ export default function Tech(){
                         <span className="bg-zinc-800 text-zinc-50 px-1 ml-1 text-lg max-xs-screen:text-sm sm:text-md">Frameworks</span> 
                         <ul className="list-decimal ml-6 max-xs-screen:text-sm">
                             <li>React</li>
-                            <li>Angular</li>
+                            <li>Laravel</li>
                             <li>TailwindCSS</li>
                             <li>Bootstrap</li>
                         </ul>
@@ -25,7 +25,8 @@ export default function Tech(){
                     <section>
                         <span className="bg-zinc-800 text-zinc-50 px-1 ml-1 text-lg max-xs-screen:text-sm sm:text-md">Database</span> 
                         <ul className="list-decimal ml-6 max-xs-screen:text-sm">
-                            <li>SQL/SQLite</li>
+                            <li>SQL/MySQL</li>
+                            <li>SQLite</li>
                             <li>Sequelize</li>
                         </ul>
                     </section>

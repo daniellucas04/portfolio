@@ -15,10 +15,10 @@ export default function Project({ title, description, imgLink, href }: ProjectPr
                 <h3>{title}</h3>
                 <img 
                     src={imgLink} 
-                    className="min-h-[200px] min-w-[200px] min-w"
+                    className="max-h-[200px] min-w-[350px]"
                 />
                 <div className="bg-white p-4">
-                    <p className="text-justify cursor-default ellipses text-wrap">
+                    <p className="text-justify cursor-default ellipses text-wrap min-h-[150px]">
                         {description}
                     </p>
                     <a href={href} target="_blank" className="flex items-center hover:underline hover:underline-offset-4 mt-2">

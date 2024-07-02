@@ -14,7 +14,7 @@ export default function Socials(){
                     </a>
                 </span>
                 <span className="flex bg-zinc-800 w-[2.2rem] h-[2.2rem] items-center justify-center rounded shadow-md hover:bg-zinc-700">
-                    <a href="linkedin.com/in/daniellucas04/" target="_blank">
+                    <a href="https://www.linkedin.com/in/daniel-lucas-da-silva-308a5b201/" target="_blank">
                         <Linkedin size={18} color="white" />
                     </a>
                 </span>
