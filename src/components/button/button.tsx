@@ -1,4 +1,4 @@
-import { Eye } from "lucide-react";
+import { Link2 } from "lucide-react";
 
 interface ButtonProps{
     link?: string,
@@ -9,7 +9,7 @@ interface ButtonProps{
 export default function Button({link, title, className}: ButtonProps){
     return(
         <a href={link} target="_blank" className={className}>
-            <Eye size={16} />
+            <Link2 size={18} className="inline mr-2" />
             {title}
         </a>
     )

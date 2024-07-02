@@ -10,7 +10,7 @@ export default function App() {
       <div>
         <Header />
       </div>
-      <div className="ml-2">
+      <div className="mx-8">
         <About />
         <Tech />
         <Projects />
