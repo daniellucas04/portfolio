@@ -23,13 +23,6 @@ export default function Projects(){
                         href="https://github.com/daniellucas04/javascript-api-tasks"
                     />
                 </div>
-                <div className="">
-                    <Button
-                        title="Check more"
-                        link="https://github.com/daniellucas04"
-                        className="bg-zinc-800 text-zinc-50 rounded-md text-base ml-8 p-2 shadow-lg shadow-slate-500/45 hover:bg-zinc-700 flex items-center transition-colors max-xs-screen:ml-6" 
-                    />
-                </div>
             </div>
         </div>
     )

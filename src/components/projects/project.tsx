@@ -1,14 +1,7 @@
 import { ChevronRight } from "lucide-react";
 import './project.css';
 
-interface ProjectProps{
-    title?: string,
-    description: string,
-    imgLink: string,
-    href: string,
-}
-
-export default function Project({ title, description, imgLink, href }: ProjectProps){
+export default function Project({title, description, imgLink, href}){
     return(
         <section className="hover:scale-105 transition-transform"> 
             <div className="w-[350px] shadow">
