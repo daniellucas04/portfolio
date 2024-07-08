@@ -22,6 +22,11 @@ export default function Projects(){
                         description="This API was created with Javascript, it is intended to be a simple connection layer with a database for tasks, where the user can create and manage their tasks"
                         href="https://github.com/daniellucas04/javascript-api-tasks"
                     />
+                    <Project 
+                        imgLink="./images/compiler.png" 
+                        description="A system for correcting algorithms in C. Based on a file of expected test cases for the program, it is possible to execute a file with C code to correct and verify that the results coincide with the test cases provided."
+                        href="https://github.com/daniellucas04/terminal-compiler.git"
+                    />
                 </div>
                 <div className="">
                     <Button
