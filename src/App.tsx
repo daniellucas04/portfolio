@@ -1,5 +1,6 @@
 import About from "./components/about";
 import Education from "./components/education";
+import Footer from "./components/footer";
 import Header from "./components/header";
 import Projects from "./components/projects";
 import Tech from "./components/tech";
@@ -15,6 +16,9 @@ export default function App() {
         <Tech />
         <Projects />
         <Education />
+      </div>
+      <div>
+        <Footer />
       </div>
     </>
   )

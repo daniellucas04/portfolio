@@ -16,6 +16,7 @@ export default function Project({ title, description, imgLink, href }: ProjectPr
                 <img 
                     src={imgLink} 
                     className="max-h-[200px] min-w-[350px]"
+                    alt="Preview Image of the project"
                 />
                 <div className="bg-white p-4">
                     <p className="text-justify cursor-default ellipses text-wrap min-h-[150px]">
