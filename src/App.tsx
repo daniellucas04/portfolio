@@ -4,7 +4,6 @@ import Footer from "./components/footer";
 import Header from "./components/header";
 import Projects from "./components/projects";
 import Tech from "./components/tech";
-import GitHub from "./components/github/github"
 
 export default function App() {
   return (
@@ -12,11 +11,10 @@ export default function App() {
       <div>
         <Header />
       </div>
-      <div className="mx-8 my-10">
+      <div className="mx-8 max-xs-screen:mx-0 max-tablet:mx-0 my-10">
         <About />
         <Tech />
         <Projects />
-        <GitHub />
         <Education />
       </div>
       <div>

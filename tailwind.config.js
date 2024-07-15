@@ -7,6 +7,9 @@ export default {
   theme: {
     screens: {
       'xs-screen': '370px',
+      'tablet': '640px',
+      'laptop': '1024px',
+      'desktop': '1280px',
     },
     extend: {},
     fontFamily: {
