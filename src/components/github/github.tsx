@@ -1,6 +1,6 @@
-import axios from "axios";
+import axios from 'axios';
 import Button from "../button/button";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 export default function GitHub() {
     let [author, setAuthor] = useState(null);
@@ -24,8 +24,6 @@ export default function GitHub() {
                     link="https://github.com/daniellucas04"
                     className="bg-zinc-800 text-zinc-50 rounded-md text-base ml-8 p-2 shadow-lg shadow-slate-500/45 hover:bg-zinc-700 flex items-center transition-colors max-xs-screen:ml-6" 
                 />
-                {/* <h6>{commit.author.email}</h6> */}
-                {/* {/* <p>{commit.message} - {commit.commiter.date}</p> */}
             </div>
         </section>
     )
