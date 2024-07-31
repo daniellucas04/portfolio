@@ -4,10 +4,10 @@ import Project from "./projects/project";
 
 export default function Projects(){
     return(
-        <div className="mt-8 max-xs-screen:mt-8 max-sm:mt-8">
-            <h1 className="text-4xl ml-8 max-xs-screen:text-2xl max-xs-screen:ml-6 max-sm:text-2xl max-lg:text-3xl">Projects</h1>
-            <div className="flex items-center justify-center flex-col ml-8 text-zinc-800 max-xs-screen:ml-0 max-sm:ml-10">
-                <div className="grid grid-cols-4 gap-4 max-xs-screen:grid-cols-1 max-tablet:grid-cols-1 max-laptop:grid-cols-2 max-desktop:grid-cols-2 mt-8">
+        <div className="mt-8">
+            <h1 className="text-4xl max-xs-screen:text-2xl max-sm:text-2xl max-lg:text-3xl ml-6">Projects</h1>
+            <div className="flex items-center justify-center flex-col text-zinc-800 max-xs-screen:ml-0">
+                <div className="grid grid-cols-4 gap-4 max-xs-screen:grid-cols-1 place-items-center max-tablet:grid-cols-1 max-laptop:grid-cols-2 max-desktop:grid-cols-2 mt-8">
                     <Project
                         title="CS: Source Mods"
                         icon={<BookMarked size={28} />}
